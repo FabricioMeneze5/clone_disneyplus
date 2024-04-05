@@ -34,11 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 })
 
+//hide header
 function hiddeElementsHeader() {
     const header = document.querySelector('.header');
     header.classList.add('header--is-hidden');
 }
 
+//show header
 function showElementsHeader() {
     const header = document.querySelector('.header');
     header.classList.remove('header--is-hidden');
